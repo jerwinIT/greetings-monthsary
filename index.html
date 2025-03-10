@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jerwin Peria" />
+    <title>Happy Monthsary!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Hidden Audio Player -->
+    <div class="hidden-audio">
+      <audio id="background-music" loop>
+        <source src="PALAGI - TJxKZ  LIVE SESSIONS.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <!-- Loading Animation -->
+    <div class="loading-container" id="loading">
+      <div class="heart-loader">
+        <div class="heart"></div>
+      </div>
+      <p>Loading our love...</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container" id="main-content">
+      <header>
+        <h1>Happy Monthsary, My Love!</h1>
+        <p class="subtitle">Another month of loving you ❤️</p>
+      </header>
+
+      <!-- Carousel -->
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+          <div class="carousel-item">
+            <img src="Images/trycicle-moments.jfif" alt="Trycicle moments" />
+            <p class="caption">Trycicle Mumints</p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Images/Billiard-with-Bebe.jfif"
+              alt="Playing billiard with my mahal"
+            />
+            <p class="caption">Billiard with my bebe!</p>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/coffee-date.jfif" alt="Coffee and Acads" />
+            <p class="caption">Coffee and Acads</p>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/sobrang latina.jpg" alt="Sobrang latina" />
+            <p class="caption">Sobrang latina!!</p>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/sunset.jfif" alt="Sunset View" />
+            <p class="caption">Sunset love!</p>
+          </div>
+        </div>
+        <div class="carousel-indicators" id="indicators"></div>
+      </div>
+
+      <!-- Button -->
+      <button class="pulse-button" id="message-button">Click Me</button>
+
+      <!-- Hidden Message -->
+      <div class="message-container" id="message">
+        <div class="message-content">
+          <h2>I Love You!</h2>
+          <p>
+            Every moment with you is a treasure. Thank you for another beautiful
+            month together. You make my life complete, and I can't wait to
+            celebrate many more monthsaries with you!!
+          </p>
+          <p class="signature">Forever yours, Jerwin</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
